@@ -1,8 +1,47 @@
 site_name: TechSpark Wiki
 site_url: https://alexmnr.github.io/techspark
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+plugins:
+  - glightbox
 theme:
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    # - navigation.sections
+    # - navigation.expand
+    # - navigation.path
   name: material
+  logo: assets/star.svg
+  favicon: assets/star.svg
+  palette:
+    # Light Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-2 
+        name: Switch to dark mode
+
+    # Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
 nav:
   - Home: index.md
-  - Test: test.md
-  - About: about.md
+  - Student Guides:
+    - General: student-guides/general.md
+    - Example: student-guides/student-guide-example.md
+  - Staff Guides:
+    - General: staff-guides/general.md
+    - Example: staff-guides/staff-guide-example.md
+  - Example Documentation:
+    - ToasterOven: example/toaster-oven.md
