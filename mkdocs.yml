@@ -2,3 +2,7 @@ site_name: TechSpark Wiki
 site_url: https://alexmnr.github.io/techspark
 theme:
   name: material
+nav:
+  - Home: index.md
+  - Test: test.md
+  - About: about.md
