@@ -9,8 +9,6 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
-  - search.suggest
-
 theme:
   features:
     - navigation.instant
