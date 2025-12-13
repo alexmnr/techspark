@@ -1,0 +1,4 @@
+site_name: TechSpark Wiki
+site_url: https://alexmnr.github.io/techspark
+theme:
+  name: material
