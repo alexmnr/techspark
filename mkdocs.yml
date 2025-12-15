@@ -45,6 +45,8 @@ nav:
     - Example: student-guides/student-guide-example.md
   - Staff Guides:
     - General: staff-guides/general.md
+    - Student Worker Guide: staff-guides/student-worker-guide.md
+    - FBS: staff-guides/fbs.md
     - Example: staff-guides/staff-guide-example.md
   - Example Documentation:
     - ToasterOven: example/toaster-oven.md
