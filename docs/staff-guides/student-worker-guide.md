@@ -68,3 +68,6 @@ Brief them or the next student worker on any FBS queues or orders that they shou
 # Opening Procedure
 ## Doors
 Open the following doors:
+- Ansys Hall Main Entrance
+- Hamerschlag Hall Main Entrance
+- (If Closed) Garage Door between Fablab and Ansys High Bay
